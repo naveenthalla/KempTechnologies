@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [KempTechnologies]">
+  <test thread-count="5" name="IE(failed)">
+    <parameter name="driver" value="webdriver.ie.driver"/>
+    <parameter name="driverPath" value="C:\\selenium\\Drivers\\IEDriverServer.exe"/>
+    <parameter name="URL" value="https://kemptechnologies.com"/>
+    <classes>
+      <class name="com.kemp.technologies.IE.Scenario1">
+        <methods>
+          <include name="teardown"/>
+          <include name="StartBrowser"/>
+          <include name="OpenKempTechHomePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.kemp.technologies.IE.Scenario1 -->
+    </classes>
+  </test> <!-- IE(failed) -->
+  <test thread-count="5" name="Firefox(failed)">
+    <classes>
+      <class name="com.kemp.technologies.Firefox.Scenario1">
+        <methods>
+          <include name="teardown"/>
+          <include name="OpenKempTechHomePage"/>
+          <include name="scenario1"/>
+          <include name="StartBrowser"/>
+        </methods>
+      </class> <!-- com.kemp.technologies.Firefox.Scenario1 -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [KempTechnologies] -->

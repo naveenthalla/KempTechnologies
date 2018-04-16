@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-KempTechnologies">
+              <span class="suite-name border-failed">KempTechnologies</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-KempTechnologies">
+                    <span>C:\Users\HP PC\eclipse-workspace\Learning_Selenium\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-KempTechnologies">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-KempTechnologies">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-KempTechnologies">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-KempTechnologies">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-KempTechnologies">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-KempTechnologies">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">31 methods, 2 failed,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-KempTechnologies" class="hide-methods failed suite-KempTechnologies"> (hide)</a> <!-- hide-methods failed suite-KempTechnologies -->
+                      <a href="#" panel-name="suite-KempTechnologies" class="show-methods failed suite-KempTechnologies"> (show)</a> <!-- show-methods failed suite-KempTechnologies -->
+                    </span>
+                    <div class="method-list-content failed suite-KempTechnologies">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.IE.Scenario1" hash-for-method="OpenKempTechHomePage(https://kemptechnologies.com)">OpenKempTechHomePage(https://kemptechnologies.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Firefox.Scenario1" hash-for-method="scenario1">scenario1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-KempTechnologies -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-KempTechnologies" class="hide-methods passed suite-KempTechnologies"> (hide)</a> <!-- hide-methods passed suite-KempTechnologies -->
+                      <a href="#" panel-name="suite-KempTechnologies" class="show-methods passed suite-KempTechnologies"> (show)</a> <!-- show-methods passed suite-KempTechnologies -->
+                    </span>
+                    <div class="method-list-content passed suite-KempTechnologies">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.IE.Scenario1" hash-for-method="Scenario10">Scenario10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.IE.Scenario1" hash-for-method="Scenario2">Scenario2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.IE.Scenario1" hash-for-method="Scenario3">Scenario3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.IE.Scenario1" hash-for-method="Scenario4">Scenario4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.IE.Scenario1" hash-for-method="Scenario5">Scenario5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.IE.Scenario1" hash-for-method="Scenario6">Scenario6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.IE.Scenario1" hash-for-method="Scenario7">Scenario7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.IE.Scenario1" hash-for-method="Scenario8">Scenario8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.IE.Scenario1" hash-for-method="Scenario9">Scenario9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.IE.Scenario1" hash-for-method="scenario1">scenario1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Chrome.Scenario1" hash-for-method="scenario1">scenario1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Firefox.Scenario10" hash-for-method="scenario10">scenario10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Chrome.Scenario10" hash-for-method="scenario10">scenario10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Firefox.Scenario2" hash-for-method="scenario2">scenario2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Chrome.Scenario2" hash-for-method="scenario2">scenario2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Firefox.Scenario3" hash-for-method="scenario3">scenario3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Chrome.Scenario3" hash-for-method="scenario3">scenario3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Firefox.Scenario4" hash-for-method="scenario4">scenario4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Chrome.Scenario4" hash-for-method="scenario4">scenario4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Firefox.Scenario5" hash-for-method="scenario5">scenario5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Chrome.Scenario5" hash-for-method="scenario5">scenario5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Firefox.Scenario6" hash-for-method="scenario6">scenario6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Chrome.Scenario6" hash-for-method="scenario6">scenario6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Firefox.Scenario7" hash-for-method="scenario7">scenario7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Chrome.Scenario7" hash-for-method="scenario7">scenario7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Firefox.Scenario8" hash-for-method="scenario8">scenario8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Chrome.Scenario8" hash-for-method="scenario8">scenario8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Firefox.Scenario9" hash-for-method="scenario9">scenario9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-KempTechnologies" title="com.kemp.technologies.Chrome.Scenario9" hash-for-method="scenario9">scenario9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-KempTechnologies -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-KempTechnologies" class="panel KempTechnologies">
+          <div class="suite-KempTechnologies-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.kemp.technologies.IE.Scenario1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenKempTechHomePage(https://kemptechnologies.com)">
+                  </a> <!-- OpenKempTechHomePage(https://kemptechnologies.com) -->
+                  <span class="method-name">OpenKempTechHomePage</span>
+                  <span class="parameters">(https://kemptechnologies.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[@href=&apos;http://life.kemptechnologies.com/&apos;][contains(text(),&apos;JOBS AT KEMP&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:22.379Z&apos;
+System info: host: &apos;NAVEEN&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:18098/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 5c5f438e-8833-44d0-bbf7-098acd2427e6
+*** Element info: {Using=xpath, value=//a[@href=&apos;http://life.kemptechnologies.com/&apos;][contains(text(),&apos;JOBS AT KEMP&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at com.kemp.technologies.IE.Scenario1.OpenKempTechHomePage(Scenario1.java:50)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-failed -->
+          <div class="suite-KempTechnologies-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.kemp.technologies.Firefox.Scenario1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario1">
+                  </a> <!-- scenario1 -->
+                  <span class="method-name">scenario1</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: timeouts
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:22.379Z&apos;
+System info: host: &apos;NAVEEN&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 25264, moz:profile: C:\Users\HP PC\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 666aba1b-dbcf-4913-a201-368d7b781565
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:835)
+	at com.kemp.technologies.Firefox.Scenario1.scenario1(Scenario1.java:52)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-failed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Firefox.Scenario4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario4">
+                  </a> <!-- scenario4 -->
+                  <span class="method-name">scenario4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Firefox.Scenario8</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario8">
+                  </a> <!-- scenario8 -->
+                  <span class="method-name">scenario8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Firefox.Scenario7</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario7">
+                  </a> <!-- scenario7 -->
+                  <span class="method-name">scenario7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Chrome.Scenario1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario1">
+                  </a> <!-- scenario1 -->
+                  <span class="method-name">scenario1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Chrome.Scenario2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario2">
+                  </a> <!-- scenario2 -->
+                  <span class="method-name">scenario2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Chrome.Scenario5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario5">
+                  </a> <!-- scenario5 -->
+                  <span class="method-name">scenario5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Chrome.Scenario6</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario6">
+                  </a> <!-- scenario6 -->
+                  <span class="method-name">scenario6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Firefox.Scenario3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario3">
+                  </a> <!-- scenario3 -->
+                  <span class="method-name">scenario3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Chrome.Scenario8</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario8">
+                  </a> <!-- scenario8 -->
+                  <span class="method-name">scenario8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Firefox.Scenario5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario5">
+                  </a> <!-- scenario5 -->
+                  <span class="method-name">scenario5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Chrome.Scenario9</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario9">
+                  </a> <!-- scenario9 -->
+                  <span class="method-name">scenario9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Firefox.Scenario10</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario10">
+                  </a> <!-- scenario10 -->
+                  <span class="method-name">scenario10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Firefox.Scenario6</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario6">
+                  </a> <!-- scenario6 -->
+                  <span class="method-name">scenario6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.IE.Scenario1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario10">
+                  </a> <!-- Scenario10 -->
+                  <span class="method-name">Scenario10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario2">
+                  </a> <!-- Scenario2 -->
+                  <span class="method-name">Scenario2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario3">
+                  </a> <!-- Scenario3 -->
+                  <span class="method-name">Scenario3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario4">
+                  </a> <!-- Scenario4 -->
+                  <span class="method-name">Scenario4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario5">
+                  </a> <!-- Scenario5 -->
+                  <span class="method-name">Scenario5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario6">
+                  </a> <!-- Scenario6 -->
+                  <span class="method-name">Scenario6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario7">
+                  </a> <!-- Scenario7 -->
+                  <span class="method-name">Scenario7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario8">
+                  </a> <!-- Scenario8 -->
+                  <span class="method-name">Scenario8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario9">
+                  </a> <!-- Scenario9 -->
+                  <span class="method-name">Scenario9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario1">
+                  </a> <!-- scenario1 -->
+                  <span class="method-name">scenario1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Firefox.Scenario2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario2">
+                  </a> <!-- scenario2 -->
+                  <span class="method-name">scenario2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Chrome.Scenario10</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario10">
+                  </a> <!-- scenario10 -->
+                  <span class="method-name">scenario10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Chrome.Scenario7</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario7">
+                  </a> <!-- scenario7 -->
+                  <span class="method-name">scenario7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Firefox.Scenario9</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario9">
+                  </a> <!-- scenario9 -->
+                  <span class="method-name">scenario9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Chrome.Scenario4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario4">
+                  </a> <!-- scenario4 -->
+                  <span class="method-name">scenario4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+          <div class="suite-KempTechnologies-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kemp.technologies.Chrome.Scenario3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario3">
+                  </a> <!-- scenario3 -->
+                  <span class="method-name">scenario3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-KempTechnologies-class-passed -->
+        </div> <!-- panel KempTechnologies -->
+        <div panel-name="test-xml-KempTechnologies" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\HP PC\eclipse-workspace\Learning_Selenium\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;KempTechnologies&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;IE&quot;&gt;
+    &lt;parameter name=&quot;driver&quot; value=&quot;webdriver.ie.driver&quot;/&gt;
+    &lt;parameter name=&quot;driverPath&quot; value=&quot;C:\\selenium\\Drivers\\IEDriverServer.exe&quot;/&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;https://kemptechnologies.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kemp.technologies.IE.Scenario1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IE --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Firefox&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kemp.technologies.Firefox.Scenario1&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Firefox.Scenario2&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Firefox.Scenario3&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Firefox.Scenario4&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Firefox.Scenario5&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Firefox.Scenario6&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Firefox.Scenario7&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Firefox.Scenario8&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Firefox.Scenario9&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Firefox.Scenario10&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Chrome&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kemp.technologies.Chrome.Scenario1&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Chrome.Scenario2&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Chrome.Scenario3&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Chrome.Scenario4&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Chrome.Scenario5&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Chrome.Scenario6&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Chrome.Scenario7&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Chrome.Scenario8&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Chrome.Scenario9&quot;/&gt;
+      &lt;class name=&quot;com.kemp.technologies.Chrome.Scenario10&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome --&gt;
+&lt;/suite&gt; &lt;!-- KempTechnologies --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-KempTechnologies" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for KempTechnologies</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">IE (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox (10 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Chrome (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-KempTechnologies" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for KempTechnologies</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-KempTechnologies" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for KempTechnologies</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_KempTechnologies');
+function tableData_KempTechnologies() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(31);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'scenario5')
+data.setCell(0, 2, 'com.kemp.technologies.Chrome.Scenario5')
+data.setCell(0, 3, 23748);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'scenario8')
+data.setCell(1, 2, 'com.kemp.technologies.Firefox.Scenario8')
+data.setCell(1, 3, 23382);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'scenario10')
+data.setCell(2, 2, 'com.kemp.technologies.Firefox.Scenario10')
+data.setCell(2, 3, 21937);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'scenario8')
+data.setCell(3, 2, 'com.kemp.technologies.Chrome.Scenario8')
+data.setCell(3, 3, 20288);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'scenario7')
+data.setCell(4, 2, 'com.kemp.technologies.Firefox.Scenario7')
+data.setCell(4, 3, 19870);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'scenario6')
+data.setCell(5, 2, 'com.kemp.technologies.Chrome.Scenario6')
+data.setCell(5, 3, 18755);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'OpenKempTechHomePage')
+data.setCell(6, 2, 'com.kemp.technologies.IE.Scenario1')
+data.setCell(6, 3, 18185);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'scenario9')
+data.setCell(7, 2, 'com.kemp.technologies.Chrome.Scenario9')
+data.setCell(7, 3, 17838);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'scenario10')
+data.setCell(8, 2, 'com.kemp.technologies.Chrome.Scenario10')
+data.setCell(8, 3, 17396);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'scenario9')
+data.setCell(9, 2, 'com.kemp.technologies.Firefox.Scenario9')
+data.setCell(9, 3, 16885);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'scenario6')
+data.setCell(10, 2, 'com.kemp.technologies.Firefox.Scenario6')
+data.setCell(10, 3, 16059);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'scenario7')
+data.setCell(11, 2, 'com.kemp.technologies.Chrome.Scenario7')
+data.setCell(11, 3, 16038);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'scenario4')
+data.setCell(12, 2, 'com.kemp.technologies.Firefox.Scenario4')
+data.setCell(12, 3, 14802);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'scenario3')
+data.setCell(13, 2, 'com.kemp.technologies.Firefox.Scenario3')
+data.setCell(13, 3, 13644);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'scenario5')
+data.setCell(14, 2, 'com.kemp.technologies.Firefox.Scenario5')
+data.setCell(14, 3, 13585);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'scenario2')
+data.setCell(15, 2, 'com.kemp.technologies.Firefox.Scenario2')
+data.setCell(15, 3, 13476);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'scenario3')
+data.setCell(16, 2, 'com.kemp.technologies.Chrome.Scenario3')
+data.setCell(16, 3, 12371);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'scenario4')
+data.setCell(17, 2, 'com.kemp.technologies.Chrome.Scenario4')
+data.setCell(17, 3, 11471);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Scenario10')
+data.setCell(18, 2, 'com.kemp.technologies.IE.Scenario1')
+data.setCell(18, 3, 10721);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Scenario9')
+data.setCell(19, 2, 'com.kemp.technologies.IE.Scenario1')
+data.setCell(19, 3, 10048);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'scenario2')
+data.setCell(20, 2, 'com.kemp.technologies.Chrome.Scenario2')
+data.setCell(20, 3, 8285);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'scenario1')
+data.setCell(21, 2, 'com.kemp.technologies.Firefox.Scenario1')
+data.setCell(21, 3, 7631);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'scenario1')
+data.setCell(22, 2, 'com.kemp.technologies.Chrome.Scenario1')
+data.setCell(22, 3, 7321);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Scenario4')
+data.setCell(23, 2, 'com.kemp.technologies.IE.Scenario1')
+data.setCell(23, 3, 6689);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'scenario1')
+data.setCell(24, 2, 'com.kemp.technologies.IE.Scenario1')
+data.setCell(24, 3, 5768);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Scenario6')
+data.setCell(25, 2, 'com.kemp.technologies.IE.Scenario1')
+data.setCell(25, 3, 5563);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Scenario8')
+data.setCell(26, 2, 'com.kemp.technologies.IE.Scenario1')
+data.setCell(26, 3, 5448);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Scenario5')
+data.setCell(27, 2, 'com.kemp.technologies.IE.Scenario1')
+data.setCell(27, 3, 4635);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Scenario2')
+data.setCell(28, 2, 'com.kemp.technologies.IE.Scenario1')
+data.setCell(28, 3, 1672);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Scenario7')
+data.setCell(29, 2, 'com.kemp.technologies.IE.Scenario1')
+data.setCell(29, 3, 1512);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'Scenario3')
+data.setCell(30, 2, 'com.kemp.technologies.IE.Scenario1')
+data.setCell(30, 3, 539);
+window.suiteTableData['KempTechnologies']= { tableData: data, tableDiv: 'times-div-KempTechnologies'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-KempTechnologies">
+              </div> <!-- times-div-KempTechnologies -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-KempTechnologies" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for KempTechnologies</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-KempTechnologies" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-KempTechnologies" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.IE.Scenario1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartBrowser(C:\\selenium\\Drivers\\IEDriverServer.exe)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">OpenKempTechHomePage(https://kemptechnologies.com)</span>
+                <span class="method-start">5212 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scenario1</span>
+                <span class="method-start">23448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scenario2</span>
+                <span class="method-start">29221 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scenario3</span>
+                <span class="method-start">30909 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scenario4</span>
+                <span class="method-start">31451 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scenario5</span>
+                <span class="method-start">38146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scenario6</span>
+                <span class="method-start">42787 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scenario7</span>
+                <span class="method-start">48355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scenario8</span>
+                <span class="method-start">49872 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scenario9</span>
+                <span class="method-start">55326 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scenario10</span>
+                <span class="method-start">65378 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">76102 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Firefox.Scenario1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartBrowser</span>
+                <span class="method-start">76303 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenKempTechHomePage</span>
+                <span class="method-start">94367 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">scenario1</span>
+                <span class="method-start">104511 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">112153 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Firefox.Scenario2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario2</span>
+                <span class="method-start">112788 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">126267 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Firefox.Scenario3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario3</span>
+                <span class="method-start">126522 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">140187 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Firefox.Scenario4</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario4</span>
+                <span class="method-start">140647 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Firefox.Scenario5</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario5</span>
+                <span class="method-start">155453 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Firefox.Scenario6</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario6</span>
+                <span class="method-start">169040 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Firefox.Scenario7</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario7</span>
+                <span class="method-start">185104 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Firefox.Scenario8</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario8</span>
+                <span class="method-start">204977 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Firefox.Scenario9</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario9</span>
+                <span class="method-start">228361 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Firefox.Scenario10</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario10</span>
+                <span class="method-start">245248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExitWindow</span>
+                <span class="method-start">267186 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Chrome.Scenario1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartBrowser</span>
+                <span class="method-start">267294 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenKempTechHomePage</span>
+                <span class="method-start">272068 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario1</span>
+                <span class="method-start">287042 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">294365 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Chrome.Scenario2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario2</span>
+                <span class="method-start">294455 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">teardown</span>
+                <span class="method-start">302742 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Chrome.Scenario3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario3</span>
+                <span class="method-start">302753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">teardown</span>
+                <span class="method-start">315127 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Chrome.Scenario4</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario4</span>
+                <span class="method-start">315137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">teardown</span>
+                <span class="method-start">326609 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Chrome.Scenario5</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario5</span>
+                <span class="method-start">326616 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">teardown</span>
+                <span class="method-start">350365 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Chrome.Scenario6</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario6</span>
+                <span class="method-start">350372 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">teardown</span>
+                <span class="method-start">369129 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Chrome.Scenario7</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario7</span>
+                <span class="method-start">369136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">teardown</span>
+                <span class="method-start">385176 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Chrome.Scenario8</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario8</span>
+                <span class="method-start">385188 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">teardown</span>
+                <span class="method-start">405478 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Chrome.Scenario9</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario9</span>
+                <span class="method-start">405483 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">teardown</span>
+                <span class="method-start">423324 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kemp.technologies.Chrome.Scenario10</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scenario10</span>
+                <span class="method-start">423329 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExitWindow</span>
+                <span class="method-start">440726 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

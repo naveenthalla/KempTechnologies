@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KempTechnologies">
+
+	<test thread-count="5" name="IE">
+  		<parameter name="driver" value="webdriver.ie.driver"/>
+  		<parameter name="driverPath" value="C:\\selenium\\Drivers\\IEDriverServer.exe"/>
+  		<parameter name="URL" value="https://kemptechnologies.com"/>
+  	
+    		<classes>
+     			 <class name="com.kemp.technologies.IE.Scenario1"/>
+     
+    		</classes>
+    </test><!-- IE -->
+  
+  <test thread-count="5" name="Firefox">
+    <classes>
+      <class name="com.kemp.technologies.Firefox.Scenario1"/>
+      <class name="com.kemp.technologies.Firefox.Scenario2"/>
+      <class name="com.kemp.technologies.Firefox.Scenario3"/>
+      <class name="com.kemp.technologies.Firefox.Scenario4"/>
+      <class name="com.kemp.technologies.Firefox.Scenario5"/>
+      <class name="com.kemp.technologies.Firefox.Scenario6"/>
+      <class name="com.kemp.technologies.Firefox.Scenario7"/>
+      <class name="com.kemp.technologies.Firefox.Scenario8"/>
+      <class name="com.kemp.technologies.Firefox.Scenario9"/>
+      <class name="com.kemp.technologies.Firefox.Scenario10"/>
+    </classes>
+    </test><!-- Firefox -->
+    
+    <test thread-count="5" name="Chrome">
+    	<classes>
+    		<class name="com.kemp.technologies.Chrome.Scenario1"/>
+    		<class name="com.kemp.technologies.Chrome.Scenario2"/>
+    		<class name="com.kemp.technologies.Chrome.Scenario3"/>
+    		<class name="com.kemp.technologies.Chrome.Scenario4"/>
+    		<class name="com.kemp.technologies.Chrome.Scenario5"/>
+    		<class name="com.kemp.technologies.Chrome.Scenario6"/>
+    		<class name="com.kemp.technologies.Chrome.Scenario7"/>
+    		<class name="com.kemp.technologies.Chrome.Scenario8"/>
+    		<class name="com.kemp.technologies.Chrome.Scenario9"/>
+    		<class name="com.kemp.technologies.Chrome.Scenario10"/>
+    	</classes>
+    	
+  </test> <!-- Chrome -->
+  	
+  	
+ 
+</suite> <!-- KempTechnologies -->
